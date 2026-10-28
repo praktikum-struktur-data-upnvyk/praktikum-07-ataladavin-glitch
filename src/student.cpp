@@ -209,7 +209,7 @@ void clear(Node*& root) {
 // =============================================================================
 int jumlahDaun(const Node* root) {
     if (root == NULL){
-        return;
+        return 0;
     }
 
     if (root->left == NULL && root->right == NULL){
